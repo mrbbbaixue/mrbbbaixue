@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: mrbbbaixue's blog
+title: 白学森的小站
 subtitle: ''
 description: ''
 keywords:
@@ -110,6 +110,9 @@ theme_config:
   colorscheme: blue
   # Enable or disable the RSS feed.
   rss: false
+  # posts overview
+  posts_overview:
+    show_all_posts: true
   nav:
     home: /
     about: /about/
