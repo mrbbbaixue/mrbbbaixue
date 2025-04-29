@@ -107,7 +107,7 @@ deploy:
 # _config.yml
 theme_config:
   # Set the theme color. find in /source/css/_colors/
-  colorscheme: white
+  colorscheme: blue
   # Enable or disable the RSS feed.
   rss: false
   nav:
