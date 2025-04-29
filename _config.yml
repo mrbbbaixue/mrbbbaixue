@@ -14,7 +14,7 @@ timezone: 'Asia/Shanghai'
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://mrbbbaixue.bakneko.com
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -103,19 +103,41 @@ theme: cactus
 deploy:
   type: ''
 
+# SEO
+sitemap:
+    path: sitemap.xml
 
-# _config.yml
+# Overwrite theme _config.yml
 theme_config:
-  # Set the theme color. find in /source/css/_colors/
+  # Set Copyright information.
+  copyright:
+    start_year: 2020
+    end_year: 2025
+  # Set the theme color. in /source/css/_colors/
   colorscheme: blue
   # Enable or disable the RSS feed.
-  rss: false
-  # posts overview
+  rss: 
+  # Show all pages in the homepage.
   posts_overview:
     show_all_posts: true
+  # Navigation bar links
   nav:
     home: /
-    about: /about/
-    articles: /archives/
-    projects: http://github.com/mrbbbaixue
-    bilibili: https://space.bilibili.com/18250035
+    # about: /about/
+    # articles: /archives/
+    tag: /tags/
+    search: /search/
+  # Social Links
+  social_links:
+  -
+    icon: github
+    link: https://github.com/mrbbbaixue
+  -
+    icon: bilibili
+    link: https://space.bilibili.com/18250035
+  -
+    icon: twitter
+    link: https://x.com/mrbbbaixue
+  -
+    icon: mail
+    link: mailto:mrbbbaixue@outlook.com
