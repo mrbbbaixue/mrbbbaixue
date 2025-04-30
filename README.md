@@ -1,5 +1,7 @@
 ### 你好！ 👋
 
+🛠️ 项目：[RA3日冕Mod](https://space.bilibili.com/400315239)，[RA3战网服务](https://ra3battle.net)，Godot Engine
+
 📑 博客：[mrbbbaixue.bakneko.com](https://mrbbbaixue.bakneko.com)
 
-🛠️ 项目：RA3日冕Mod，RA3战网服务，Godot Engine
+📺 哔哩哔哩：[@白学森](https://space.bilibili.com/18250035)
