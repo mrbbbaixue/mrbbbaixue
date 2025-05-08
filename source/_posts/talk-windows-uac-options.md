@@ -51,4 +51,4 @@ tags:
 
 ## 参考文献
 
-[1] [[win-linux化] 如何设置当Windows需要管理员权限时, 在UAC界面强制要求生物识别或输入密码确认提权](https://lolitasian.blog.csdn.net/article/details/121656279)
+[1] [[win-linux化] 如何设置当Windows需要管理员权限时, 在UAC界面强制要求生物识别或输入密码确认提权](https://zhuanlan.zhihu.com/p/407993921)
