@@ -109,6 +109,10 @@ sitemap:
 
 # Overwrite theme _config.yml
 theme_config:
+  # Google Analytics ID
+  google_analytics:
+    enabled: true
+    id: G-G0QQXRQJEB
   # Set Copyright information.
   copyright:
     start_year: 2020
