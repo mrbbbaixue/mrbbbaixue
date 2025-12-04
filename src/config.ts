@@ -12,8 +12,8 @@ export const siteConfig: SiteConfig = {
 	subtitle: "",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
-		hue: 200, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
-		fixed: false, // Hide the theme color picker for visitors
+		hue: 80, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+		fixed: true, // Hide the theme color picker for visitors
 	},
 	banner: {
 		enable: false,
@@ -27,7 +27,7 @@ export const siteConfig: SiteConfig = {
 	},
 	toc: {
 		enable: true, // Display the table of contents on the right side of the post
-		depth: 2, // Maximum heading depth to show in the table, from 1 to 3
+		depth: 3, // Maximum heading depth to show in the table, from 1 to 3
 	},
 	favicon: [
 		// Leave this array empty to use the default favicon
@@ -53,9 +53,9 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "mrbbbaixue",
-	bio: "白学森 - RA3日冕Mod，RA3战网服务，Godot Engine",
+	avatar: "assets/images/avatar.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	name: "白学森",
+	bio: "保持饥饿，保持笨蛋！",
 	links: [
 		{
 			name: "GitHub",
