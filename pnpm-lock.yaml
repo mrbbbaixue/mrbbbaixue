@@ -123,7 +123,7 @@ importers:
         specifier: ^2.17.3
         version: 2.17.3
       sharp:
-        specifier: ^0.34.5
+        specifier: ^0.34.4
         version: 0.34.5
       stylus:
         specifier: ^0.64.0
@@ -10141,7 +10141,7 @@ snapshots:
     dependencies:
       '@img/colour': 1.0.0
       detect-libc: 2.1.2
-      semver: 7.7.3
+      semver: 7.7.4
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.34.5
       '@img/sharp-darwin-x64': 0.34.5
