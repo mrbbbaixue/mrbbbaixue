@@ -1,6 +1,6 @@
 # https://clashparty.org/docs/guide/override/yaml
 +rules:
-  - DOMAIN,ra3battle.net,DIRECT
-  - DOMAIN,xbox.com,DIRECT
-  - DOMAIN,xboxlive.com,DIRECT
-  - DOMAIN,xboxlive.cn,DIRECT
+  - DOMAIN-SUFFIX,ra3battle.net,DIRECT
+  - DOMAIN-SUFFIX,xbox.com,DIRECT
+  - DOMAIN-SUFFIX,xboxlive.com,DIRECT
+  - DOMAIN-SUFFIX,xboxlive.cn,DIRECT
