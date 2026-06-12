@@ -29,6 +29,9 @@ export default defineConfig({
 	site: "https://mrbbbaixue.com/",
 	base: "/",
 	trailingSlash: "always",
+	legacy: {
+		collectionsBackwardsCompat: true,
+	},
 	integrations: [
 		tailwind({
 			nesting: true,
